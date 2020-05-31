@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='django-server-conn_pool',
-    packages=['django-server-conn-pool'],
+    name='django_server_conn_pool',
+    packages=['django_server_conn_pool'],
     version='1.0',
     license='MIT',
     description='DB Server Connection Pooling with Django and SQL Alchemy',
