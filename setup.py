@@ -11,7 +11,7 @@ setuptools.setup(
     author='raju',
     author_email='ramisetty.prudhviraju@gmail.com',
     url='https://github.com/prudhviraju-011/django-server-conn-pool',
-    download_url='https://github.com/prudhviraju-011/django-server-conn-pool/archive/v1.0.tar.gz',
+    download_url='https://github.com/prudhviraju-011/django-server-conn-pool/archive/v2.0.tar.gz',
     keywords=['conn-pool'],
     packages=setuptools.find_packages(),
     classifiers=(
