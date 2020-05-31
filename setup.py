@@ -1,6 +1,9 @@
-from distutils.core import setup
+import setuptools
 
-setup(
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+    
+setuptools.setup(
     name='django_server_conn_pool',
     packages=['django_server_conn_pool'],
     version='0.1',
