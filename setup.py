@@ -5,8 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='django_server_conn_pool',
-    packages=['django_server_conn_pool'],
-    version='1.0',
+    version='2.0',
     license='MIT',
     description='DB Server Connection Pooling with Django and SQL Alchemy',
     author='raju',
@@ -14,6 +13,7 @@ setuptools.setup(
     url='https://github.com/prudhviraju-011/django-server-conn-pool',
     download_url='https://github.com/prudhviraju-011/django-server-conn-pool/archive/v1.0.tar.gz',
     keywords=['conn-pool'],
+    packages=setuptools.find_packages(),
     classifiers=(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
