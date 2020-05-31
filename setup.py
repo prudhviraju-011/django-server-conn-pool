@@ -8,8 +8,8 @@ setup(
     description='DB Server Connection Pooling with Django and SQL Alchemy',
     author='raju',
     author_email='ramisetty.prudhviraju@gmail.com',
-    url='',
-    download_url='',
+    url='https://github.com/prudhviraju-011/django-server-conn-pool',
+    download_url='https://github.com/prudhviraju-011/django-server-conn-pool/archive/v_01.tar.gz',
     keywords=['conn-pool'],
     classifiers=(
         "Programming Language :: Python :: 3",
